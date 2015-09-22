@@ -1,0 +1,7 @@
+<div class="points-list__point point" ng-show="!vm.editing" ng-dblclick="vm.edit()">
+  {{data.name}}
+</div>
+<input class="points-list__point--input point--input" ng-show="vm.editing" ng-blur="vm.endEdit($event)" esc-key="vm.cancelEdit()" enter-key="vm.endEdit($event)" ng-model="vm.input" value="{{data.name}}">
+<div class="points-list__button">
+  <button class="btn btn-danger" ng-click="vm.removePoint()">X</button>
+</div>
