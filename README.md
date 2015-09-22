@@ -2,12 +2,11 @@
 Test task for funbox
 
 Чтобы запустить:
-
-npm install
-bower install
-gulp
-gulp serve
-gulp test (for tests)
+- npm install
+- bower install
+- gulp
+- gulp serve
+- gulp test (for tests)
 
 Новая точка маршрута добавляется с помощью ввода ее названия в текстовом поле и нажатия Enter. После этого:
 - введенная точка маршрута отображается в конце списка уже добавленных точек;
